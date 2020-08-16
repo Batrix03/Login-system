@@ -1,0 +1,15 @@
+materie = ["math", "spanish", "english", "physics","science", "business management"]
+print(materie)
+print("io a scuola ho " + str(len(materie)) + " materie")
+popped_materie = materie.pop(1)
+print("if i had to delete a subject, it would be " + popped_materie.title())
+materie.insert(1, "programming")
+print("i'd like to change it with " +materie[1].title())
+print("So i would just remain with"+ str(materie))
+
+print(sorted(materie))
+print(materie)
+print(sorted(materie, reverse= True))
+
+materie.reverse()
+print(materie)
